@@ -21,7 +21,7 @@ def deposit(self, amount):
           print("account balance for {}(account #{}):₹{}".format(self.__account_holder_name,self.__account_number,self.__account_balance ))
 
 #create an instance of the Bank account class
-account=bankaccount(account_number ="123456789",account_holder_name="thirru", initial_balance=5000.0)
+account=Bankaccount(account_number ="123456789",account_holder_name="thirru", initial_balance=5000.0)
 #test deposit and withdraw functionality
 account.display_balance()
 account.deposit(500.0)
